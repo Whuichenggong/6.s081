@@ -92,13 +92,14 @@ sys_uptime(void)
   return xticks;
 }
 
-//
-
 uint64
 sys_trace(void)
 {
-printf("sys_trace: Hi!\n");
-return 0;
+  int n;
 
-}
+  argint(0, &n);
+
+  printf("sys_trace: Hi! n is %d\n",n);
+  return 0;
+
 }

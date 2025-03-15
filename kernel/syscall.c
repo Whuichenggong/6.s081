@@ -100,7 +100,7 @@ extern uint64 sys_mknod(void);
 extern uint64 sys_unlink(void);
 extern uint64 sys_link(void);
 extern uint64 sys_mkdir(void);
-extern uint64 sys_closei(void);
+extern uint64 sys_close(void);
 extern uint64 sys_trace(void);
 
 // An array mapping syscall numbers from syscall.h
